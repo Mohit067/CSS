@@ -1,0 +1,35 @@
+*{
+    background: wheat;
+}
+p{
+    color: #8839ff;
+}
+h1{
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+h1,h3,h4,p{
+    text-align: center;
+}
+h3{
+    color: black;
+}
+p{
+    color: red;
+    line-height: 30px;
+}
+a{
+    color: green;
+    text-decoration: none;
+}
+button{
+    color: blueviolet;
+    background: white;
+}
+textarea{
+    color:#ff0000;
+}
+span{
+    text-decoration: underline;
+}
