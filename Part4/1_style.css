@@ -1,0 +1,49 @@
+#container{
+    display: inline-block;
+}
+.card{
+    height: 300px;
+    width: 200px;
+    display: inline-block; 
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px black;
+    margin: 10px;
+    transition: 0.5s;
+    padding: 0 auto;
+    background-image: url("IMG-20240911-WA0103.jpg");
+    background-size: cover;
+}
+.card1{
+    height: 300px;
+    width: 200px;
+    display: inline-block; 
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px black;
+    margin: 10px;
+    transition: 0.5s;
+    padding: 0 auto;
+    background-image: url("IMG-20240911-WA0104.jpg");
+    background-size: cover;
+}
+img{
+    width: 100%;
+    
+    border-radius: 5px 5px 0 0;
+}
+.desc{
+    /* padding-top: 220px; */
+    color: rgb(27, 8, 44); 
+    position: relative;
+    background: #dfe8dfd0;
+    top: 225px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.card:hover{
+    box-shadow: 0 8px 16px rgba(22, 158, 63, 0.895);
+}
+.card1:hover{
+    box-shadow: 0 8px 16px rgba(22, 158, 63, 0.895);
+}
