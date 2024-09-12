@@ -1,10 +1,21 @@
 #container{
+    position: relative;
+    left: 480px;
+    top: 200px;
+    width: 450px;
     display: inline-block;
+    display:  flex;
+    /* justify-content: space-between; */
+    justify-content: center;
+    background: gray;
+    border: 2px solid black;
+    
 }
 .card{
+    flex-basis: 225px;
     height: 300px;
-    width: 200px;
-    display: inline-block; 
+    /* width: 200px; */
+    /* display: inline-block;  */
     border: 2px solid black;
     border-radius: 5px;
     box-shadow: 0 4px 8px black;
@@ -16,8 +27,11 @@
 }
 .card1{
     height: 300px;
-    width: 200px;
-    display: inline-block; 
+    /* width: 200px; */
+    /* ham indivisually flex-basis se width de rhe h isliye width hata di hai */
+    flex-basis: 225px; 
+
+    /* display: inline-block;  */
     border: 2px solid black;
     border-radius: 5px;
     box-shadow: 0 4px 8px black;
@@ -35,9 +49,9 @@ img{
 .desc{
     /* padding-top: 220px; */
     color: rgb(27, 8, 44); 
-    position: relative;
-    background: #dfe8dfd0;
-    top: 225px; 
+    position: relative;   
+    background: #dfe8df50;
+    top: 224px; 
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
