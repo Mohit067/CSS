@@ -1,0 +1,25 @@
+.div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.loader{
+    position: relative;
+
+    height: 300px;
+    width: 300px;
+    border: 15px solid gray;
+    border-radius: 50%;
+    border-top: 15px solid goldenrod;
+    animation: spin 2s linear infinite;
+    
+}
+@keyframes spin{
+    0%{
+        rotate: 0deg;
+       
+    }
+    100%{
+        rotate: 360deg;
+    }
+}
